@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #b7bdb2;
+}
+h1{
+	text-align: center;
+	font-family: 'Chicle', cursive;
+	color: #ffe400;
+	font-size: 64px;
+	letter-spacing: 5px;
+}
+h2{
+	text-align: center;
+	font-family: 'Chicle', cursive;
+	color: #ffe400;
+	font-size: 48px;
+	letter-spacing: 5px;
+}
+p{
+	text-align: center;
+	font-family: 'Chicle', cursive;
+	color: #ffe400;
+	font-size: 48px;
+	letter-spacing: 2px;
+}
+#counter{
+	text-align: center;
+	font-family: 'Chicle', cursive;
+	color: #ffe400;
+	font-size: 32px;
+	margin-top: 10px;
+	letter-spacing: 3px;
+}
+
+a:link{
+	color: #ffe400;
+	text-decoration: none;
+}
+a:visited{
+	color: #ffe400;
+	text-decoration: none;
+}
+a:hover{
+	color: #00c4ff;
+	text-decoration: none;
+}
+#board{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+	text-align: center;
+}
+#board div.card{
+	display: inline-block;
+	width: 150px;
+	height: 220px;
+	background-size: cover;
+	transition: all .3s ease-in-out;
+	box-sizing: border-box;
+	z-index: -2;
+}
+#board div.card:hover{
+	filter: brightness(110%);
+}
+.hidden{
+	display: inline-block;
+	width: 150px;
+	height: 220px;
+	background-size: cover;
+	transition: all .3s ease-in-out;
+	filter: brightness(70%); !important;
+	box-sizing: border-box;
+	background-image: url(img/cardback.png) !important;
+	z-index: 2;
+}
+.hidden:hover{
+	box-shadow: -1px 10px 125px 10px rgba(255,215,0,1);
+}
+#winner{
+	position: absolute;
+	left: 33%;
+	width: 650px;
+	height: 650px;
+	text-align: center;
+	z-index: -1;
+	text-align: center;
+}
+#winner h1{
+	margin-top: 200px;
+}
