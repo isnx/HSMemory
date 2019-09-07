@@ -144,8 +144,10 @@
 }
 /*PC*/
 @media screen and (min-width:1280px){
+
 #board{
-		max-width: 650px;
+	margin-top: 0;
+	max-width: 650px;
 	}
 #board div.card{
 		width: 150px;
